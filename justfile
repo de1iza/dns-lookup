@@ -1,7 +1,7 @@
 # Google DNS
 dns_ip := '8.8.8.8'
 
-r ip domain_name:
+lookup ip domain_name:
     python3 main.py {{ip}} {{domain_name}}
 
 google:
@@ -10,5 +10,5 @@ google:
 telegram:
     python3 main.py {{dns_ip}} telegram.org
 
-tutorialspoimain:
+tutorialspoint:
     python3 main.py {{dns_ip}} tutorialspoint.com
